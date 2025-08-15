@@ -1,0 +1,136 @@
+body, h1, h2, h3, h4, p, ul {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #DAF7F7;
+  
+  color: #333;
+  line-height: 1.8
+}
+
+header {
+  background-color: #a0e1e1;
+  color: black;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  background-color: #DAF7F7;
+}
+nav ul li {
+  margin: 0 35px;
+
+
+}
+
+nav ul li a {
+  color: #1F3333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li:hover {
+  color: black;
+  transform: scale(1.2);
+  transition: color 0.3s, transform 0.3s;
+}
+nav ul li a:hover {
+  color: black;
+}
+
+.hero {
+  background: #78BFBF;
+  text-align: center;
+  padding: 2rem;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.products {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.products article{
+ 
+  padding: 1rem;
+  width: 250px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  background-color: #ddd;
+}
+.products article:hover {
+  transform: scale(1.10);
+  transition: transform 0.2s;
+   background: #297474;
+  border: 1px solid #ddd;
+}
+
+
+.products img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 0.5rem;
+}
+
+aside {
+  background: #ffebcd;
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+  border-left: 5px solid #d4af37;
+}
+
+footer {
+  background: #1B2E2E;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+footer .footer-about {
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+footer .contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.contact div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.alignn {
+  display: flex;
+  justify-content: space-around;
+  align-items: self-start;
+  flex-direction: row;
+}
